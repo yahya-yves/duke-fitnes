@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duke Fitness - Contact Us</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            justify-content: space-between;
+        }
+
+        .navbar {
+            background-color: #2d2d2d;
+            border-bottom: 3px solid #00ff88;
+            padding: 20px;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .navbar-nav {
+            display: flex;
+            justify-content: flex-end;
+            gap: 20px;
+        }
+
+        .navbar a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .navbar a:hover,
+        .navbar a.active {
+            color: #00ff88;
+        }
+
+        footer {
+            background-color: #2d2d2d;
+            border-top: 3px solid #00ff88;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: auto;
+        }
+
+        footer h5, footer p {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+
+        .contact-card {
+            background-color: #373737;
+            border: 1px solid #3d3d3d;
+            border-radius: 8px;
+            padding: 2rem;
+            margin: 2rem auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            max-width: 600px;
+        }
+
+        .contact-card:hover {
+            border-color: #00ff88;
+            transform: translateY(-5px);
+        }
+
+        h2 {
+            color: #00ff88;
+            margin-bottom: 2.5rem;
+        }
+
+        .main-content {
+          text-align: center;
+        }
+        .pm{
+          text-align: center;
+        }
+
+        .lead {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="registration.html">Registration</a>
+        <a href="vison&mission.html">Vision & Mission</a>
+        <a class="active" href="contact us.html">Contact Us</a>
+    </nav>
+
+    <main>
+        <div class="contact-card">
+          <h2 class="main-content">Contact Us</h2>
+
+            <p class="lead">
+                We'd love to hear from you! Reach out to us through any of the following methods:
+            </p>
+            <div class="pm">
+                <p><strong>Location:</strong> Yakhshid, Mogadishu, Somalia</p>
+                <p><strong>Phone:</strong> +252 61 283 9183</p>
+                <p><strong>Email:</strong> dukefitness@gmail.com</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h5>Opening Hours</h5>
+        <p>Mon-Sat: 6:00 AM - 10:00 PM</p>
+        <h5>Off Hours</h5>
+        <p>Thu-Fri: 8:00 AM - 8:00 PM</p>
+    </footer>
+
+</body>
+</html>

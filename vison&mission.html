@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Duke Fitness - Vision & Mission</title>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      justify-content: space-between;
+    }
+
+    .navbar {
+      background-color: #2d2d2d;
+      border-bottom: 3px solid #00ff88;
+      padding: 20px;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .navbar-nav {
+      display: flex;
+      justify-content: flex-end;
+      gap: 20px;
+    }
+
+    .navbar a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 1.2rem;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .navbar a:hover,
+    .navbar a.active {
+      color: #00ff88;
+    }
+
+    footer {
+      background-color: #2d2d2d;
+      border-top: 3px solid #00ff88;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      margin-top: auto;
+    }
+
+    footer h5,
+    footer p {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+
+    .vision-mission-card {
+      background-color: #373737;
+      border: 1px solid #3d3d3d;
+      border-radius: 8px;
+      padding: 2rem;
+      margin: 2rem 0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      transition: all 0.3s ease;
+    }
+
+    .vision-mission-card:hover {
+      border-color: #00ff88;
+      transform: translateY(-5px);
+    }
+
+    h2 {
+      color: #00ff88;
+      margin-bottom: 2.5rem;
+    }
+
+
+    .vision-mission-card h3 {
+      color: #00ff88;
+      margin-bottom: 1.5rem;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="registration.html">Registration</a>
+    <a class="active" href="vison&mission.html">Vision & Mission</a>
+    <a href="contact us.html">Contact Us</a>
+  </nav>
+  <main>
+    <div class="vision-mission-card">
+      <h3>Our Vision</h3>
+      <p class="lead">
+        To inspire and empower individuals to achieve their highest potential through fitness, 
+        creating a healthier and more vibrant community.
+      </p>
+    </div>
+    <div class="vision-mission-card">
+      <h3>Our Mission</h3>
+      <p class="lead">
+        At Duke Fitness, we are committed to providing world-class fitness facilities, 
+        personalized training programs, and a supportive environment that motivates our members 
+        to reach their fitness goals and lead healthier lives.
+      </p>
+    </div>
+  </main>
+
+  
+  <footer>
+    <h5>Opening Hours</h5>
+    <p>Saturday - Wednesday: 6:00 AM - 10:00 PM</p>
+    <h5>Off Hours</h5>
+    <p>Thursday - Friday: 8:00 AM - 8:00 PM</p>
+  </footer>
+
+</body>
+</html>
